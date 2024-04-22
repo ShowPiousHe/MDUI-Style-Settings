@@ -1,4 +1,4 @@
-# MDUI-style-Settings
+# MDUI-Style-Settings
 
 使用方法直接以引入js。
 
