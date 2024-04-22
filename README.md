@@ -1,9 +1,14 @@
 # MDUI-style-Settings
 
 使用方法直接以引入js。
+
 设置面板打开方法
+**代码段**
+
+``` html
  <button class="mdui-btn mdui-ripple" mdui-dialog="{target:'#dialog-panel-theme'}">open</button>
- 
+
+```
 **代码段**
 
 ``` js
