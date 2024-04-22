@@ -6,7 +6,7 @@
 ``` html
  <script src="theme.js"></script>
 ``` 
-##设置面板打开方法
+## 设置面板打开方法
 
 **代码段**
 
@@ -14,7 +14,8 @@
  <button class="mdui-btn mdui-ripple" mdui-dialog="{target:'#dialog-panel-theme'}">open</button>
 
 ```
-##功能介绍
+## 功能介绍
+
 **代码段**
 
 ``` js
