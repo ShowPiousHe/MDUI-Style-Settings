@@ -2,7 +2,12 @@
 
 使用方法直接以引入js。
 
+
+``` html
+ <script src="theme.js"></script>
+``` 
 设置面板打开方法
+
 **代码段**
 
 ``` html
