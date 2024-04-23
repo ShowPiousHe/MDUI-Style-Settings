@@ -328,9 +328,9 @@
          var Theme_Style = style.get();
          /*首次打开默认样式*/
          if (Theme_Style == null) {
-             var default_style = style.default();
-             style.save(default_style);
-             var Theme_Style = default_style;
+             var Theme_Style = style.default();
+             style.save(Theme_Style);
+      
          }
          /*加载主题设置面板。*/
          style.panel();
