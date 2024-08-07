@@ -7,7 +7,7 @@
  /*前端加载主题。true为开起,false为关闭*/
  var style_show = 'true';
 
- //主题色
+ /*主题色*/
  var l_color = [{
      name: "Auto",
      value: "auto"
@@ -18,7 +18,7 @@
      name: "Dark",
      value: "dark"
  }];
- //主色
+ /*主色*/
  var p_color = [{
      name: "Amber",
      value: "amber"
@@ -77,7 +77,7 @@
      name: "Yellow",
      value: "yellow"
  }];
- // 强调色
+ /*强调色*/
  var a_color = [{
      name: "Amber",
      value: "amber"
