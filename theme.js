@@ -1,6 +1,4 @@
- /*
-作者QQ1271431783
- */
+
 
  /*保存方式有两种。c值为cookie和l值为localStorage*/
  var save_type = 'l';
@@ -347,7 +345,7 @@
          $body.classList.add('mdui-theme-accent-' + accent, 'mdui-theme-primary-' + primary, 'mdui-theme-layout-' + layout);
      },
  }
- window.onload = function() {
+ 
   /*主题初始化*/     
      style.Init();
- }
+ 
