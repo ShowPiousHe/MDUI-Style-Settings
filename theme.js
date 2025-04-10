@@ -345,7 +345,8 @@
          $body.classList.add('mdui-theme-accent-' + accent, 'mdui-theme-primary-' + primary, 'mdui-theme-layout-' + layout);
      },
  }
- 
+ window.onload=function(){
   /*主题初始化*/     
      style.Init();
+}
  
