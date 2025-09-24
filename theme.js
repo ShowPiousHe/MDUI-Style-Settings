@@ -345,8 +345,20 @@
          $body.classList.add('mdui-theme-accent-' + accent, 'mdui-theme-primary-' + primary, 'mdui-theme-layout-' + layout);
      },
  }
- window.onload=function(){
-  /*主题初始化*/     
+ if(document.addEventListener){
+        //大部分浏览器
+    document.addEventListener('DOMContentLoaded', function() {
+         /*主题初始化*/
      style.Init();
-}
+});
+    }else{
+        //IE8及以下
+// 模拟 DOMContentLoaded/ jquery ready
+document.onreadystatechange = function () {
+  if (document.readyState === "interactive") {
+      /*主题初始化*/
+     style.Init();
+  }
+};
+    }
  
